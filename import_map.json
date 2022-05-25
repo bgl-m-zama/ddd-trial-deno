@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "http/": "https://deno.land/std/http/",
+    "log/": "https://deno.land/x/deno_structured_logging@0.4.2/"
+  }
+}
