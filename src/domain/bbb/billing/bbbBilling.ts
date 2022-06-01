@@ -1,6 +1,6 @@
-import {UseDateTerm} from "../nnn/nnnBilling.ts";
-import {Member} from "./member.ts";
-import {Caf} from "../nnn/caf.ts";
+import {UseDateTerm} from "../../nnn/billing/nnnBilling.ts";
+import {Member} from "../member/member.ts";
+import {Caf} from "../../nnn/contract/caf.ts";
 
 export interface BbbBilling {
     caf: Caf

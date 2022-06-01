@@ -1,4 +1,4 @@
-import {BbbBilling} from "../../../bbbBilling.ts";
+import {BbbBilling} from "../../bbbBilling.ts";
 
 export interface BbbConstructionBilling extends BbbBilling {
 }

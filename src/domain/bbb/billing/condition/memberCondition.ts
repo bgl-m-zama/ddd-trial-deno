@@ -1,5 +1,5 @@
-import {Member} from "../../member.ts";
-import {BbbBilling} from "../../bbbBilling.ts";
+import {Member} from "../../member/member.ts";
+import {BbbBilling} from "../bbbBilling.ts";
 
 
 export class BbbBillingMemberCondition {

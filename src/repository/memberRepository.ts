@@ -1,5 +1,5 @@
-import {Course, CourseTerm, Member, ServiceTerm} from "../domain/bbb/member.ts";
-import {Caf} from "../domain/nnn/caf.ts";
+import {Course, CourseTerm, Member, ServiceTerm} from "../domain/bbb/member/member.ts";
+import {Caf} from "../domain/nnn/contract/caf.ts";
 
 export class MemberRepository {
     findBy(caf: Caf): Member {

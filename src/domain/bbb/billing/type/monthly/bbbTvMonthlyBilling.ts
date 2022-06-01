@@ -1,8 +1,8 @@
 import {BbbMonthlyBilling} from "./bbbMonthlyBilling.ts";
-import {NnnBilling, NnnBillingCode, UseDateTerm} from "../../../../nnn/nnnBilling.ts";
-import {Caf} from "../../../../nnn/caf.ts";
-import {Member} from "../../../member.ts";
-import {BbbBillingFixed} from "../../../bbbBilling.ts";
+import {NnnBilling, NnnBillingCode, UseDateTerm} from "../../../../nnn/billing/nnnBilling.ts";
+import {Caf} from "../../../../nnn/contract/caf.ts";
+import {Member} from "../../../member/member.ts";
+import {BbbBillingFixed} from "../../bbbBilling.ts";
 import {BbbBillingMemberCondition} from "../../condition/memberCondition.ts";
 
 export class BbbTvMonthlyBilling implements BbbMonthlyBilling {

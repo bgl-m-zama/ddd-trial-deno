@@ -1,6 +1,6 @@
 import {NnnBillingRepository} from "../repository/nnnBillingRepository.ts";
 import {MemberRepository} from "../repository/memberRepository.ts";
-import {BbbBillingConverter} from "../domain/bbb/bbbBillingConverter.ts";
+import {BbbBillingConverter} from "../domain/bbb/billing/bbbBillingConverter.ts";
 import {BbbBillingRepository} from "../repository/bbbBillingRepository.ts";
 
 export class BbbBillingService {

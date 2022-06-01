@@ -1,4 +1,4 @@
-import {Caf} from "./caf.ts";
+import {Caf} from "../contract/caf.ts";
 
 export class NnnBilling {
     readonly code: NnnBillingCode

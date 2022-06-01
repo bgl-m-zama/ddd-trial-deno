@@ -1,5 +1,5 @@
-import {NnnBillingCode, NnnBilling} from '../domain/nnn/nnnBilling.ts'
-import {Caf} from "../domain/nnn/caf.ts";
+import {NnnBillingCode, NnnBilling} from '../domain/nnn/billing/nnnBilling.ts'
+import {Caf} from "../domain/nnn/contract/caf.ts";
 
 export class NnnBillingRepository {
     load(billingMonth: string): NnnBilling[] {
